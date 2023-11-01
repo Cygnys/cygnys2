@@ -1,0 +1,11 @@
+mkdir my_project
+cd my_project
+git init
+git add .
+git commit -m "Initial commit"
+git branch new-feature
+git checkout new-feature
+git checkout -b new-feature
+git checkout main
+git branch
+git branch -d branch-to-delete
